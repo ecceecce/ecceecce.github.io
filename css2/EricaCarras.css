@@ -1,0 +1,232 @@
+body{
+	overflow-x:hidden;
+	width:auto;
+	background-color:#ffffff;
+	padding:0;
+	margin: 0;
+}
+p,a, .left-inside{
+	font-family: 'Molengo', sans-serif;
+    font-weight: 300; 
+    font-size: 5vw;
+    line-height: 6.4vw;
+	padding-bottom: .5em;	
+}
+
+#name{
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 6.5vw;
+    line-height: 0;
+    margin: 0;
+    padding-bottom: 1.3em;
+
+}
+
+
+.left{
+	float:right;
+	margin: 0;
+	height: 100%;
+	width:100%;
+	z-index: 300;
+	overflow-y: auto;
+	background-color:pink;	
+}
+
+.left-inside{
+	/*width:21vw; /* should change to ems? */
+	padding:3em;
+	/*padding-top:2em;*/
+	/*everything alighns at 2em*/
+
+
+}
+#links{
+	line-height: 1.5em;
+}
+
+#mt{
+
+	visibility:hidden;
+	/*margin-bottom:0;
+	text-decoration: underline;*/
+
+}
+
+#mtu{
+	visibility:hidden;
+	/*margin:0;*/
+
+}
+
+
+/*.skrl{
+	width: 1em;
+    height: 7em;
+    position: fixed;
+    top: 80vh;
+    right: 3em;
+    background-color: black;
+
+
+}*/
+
+a {
+	text-decoration:none;
+    color:black;
+    border-bottom:solid .13vw #757575;
+    padding-bottom:.03vh;
+}
+a:hover{
+	color:#ff6060;
+	border-bottom:solid .1em #ff6060;
+}
+
+a:active a:visited{
+    color: #ff6060;
+    }
+
+iframe{
+	position:fixed;
+	width:100%;
+	height:777px;
+}
+
+::-webkit-scrollbar {
+    width: .4vw;
+
+}
+::-webkit-scrollbar-track {
+    border-radius: .2vw;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #f8f8f8; 
+}
+
+
+
+
+
+
+
+
+
+/************* media screen over 600px***********/
+
+
+@media screen and (min-width: 600px){
+
+	body{
+	cursor: url('updown-01.png'), auto; 
+	overflow-x:hidden;
+	width:auto;
+	background-color:#ffffff;
+	padding:0;
+	margin: 0;
+}
+p,a, .left-inside{
+	font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 2.5vw;
+	
+}
+
+#name{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+    font-size: 2.3vw;
+    line-height: 2.8vw;
+    margin:0;
+    padding-bottom:1.6em;
+
+}
+
+
+.left{
+	visibility:visible;
+	position: fixed;
+	margin: 0;
+	height: 100%;
+	width:35%;
+	z-index: 300;
+	overflow-y: auto;
+	background-color:white;	
+}
+
+.left-inside{
+	/*width:21vw; /* should change to ems? */
+	padding:3em;
+	padding-top:2em;
+	/*everything alighns at 2em*/
+
+
+}
+#links{
+	line-height: 3vw;
+}
+
+#mt{
+	visibility: visible;
+	margin-bottom:0.3em;
+	text-decoration: underline;
+	font-weight: 300;
+
+}
+
+#mtu{
+	visibility: visible;
+	margin-bottom: 2em;
+    margin-top: 0;
+
+}
+
+
+/*.skrl{
+	width: 1em;
+    height: 7em;
+    position: fixed;
+    top: 80vh;
+    right: 3em;
+    background-color: black;
+
+
+}*/
+
+a {
+	text-decoration:none;
+    color:black;
+    border-bottom:solid .13vw #757575;
+    padding-bottom:.03vh;
+}
+a:hover{
+	color:#ff6060;
+	border-bottom:solid .1em #ff6060;
+}
+
+a:active a:visited{
+    color: #ff6060;
+    }
+
+iframe{
+	top:0px;
+	right:0px ;
+	width:100%;
+	height:777px;
+}
+
+::-webkit-scrollbar {
+    width: .4vw;
+
+}
+::-webkit-scrollbar-track {
+    border-radius: .2vw;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #f8f8f8; 
+}
+
+}
